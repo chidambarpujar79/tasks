@@ -1,0 +1,110 @@
+<div>
+  <div class="header" style="background-color: white">
+    <a  class="font-light m-b-xs titlename">Knowledge Base/Articles</a>
+    <div class="header-right">
+        <a class="dropdown-toggle "  style="color: #3498db;padding: 8px;font-size: 10pt;height:34px !important;font-weight: 600;border-right: 1px solid #f1f1f1;">
+            <i class="fa fa-group"></i> My Dashboard
+      </a>
+      <a class="dropdown-toggle "  style="color: #3498db;padding: 8px;font-size: 10pt;height:34px !important;font-weight: 600;border-right: 1px solid #f1f1f1;">
+          <i class="fa fa-list"></i> My Articles
+    </a>
+    <a class="dropdown-toggle "  style="color: #3498db;padding: 8px;font-size: 10pt;height:34px !important;font-weight: 600;border-right: 1px solid #f1f1f1;">
+        <i class="fa fa-book"></i> Add Articles
+  </a>
+    </div>
+  </div>
+  <div class="container-fluid">
+<div class="row">
+
+<div class="col-md-8"   id="dvarticlecontainer" style="display: inline-block; vertical-align: top;border-right:1px solid #d8d8d8;padding-top:20px" >
+
+    <div class="container">
+      <img src="http://qa.zoomteams.com/images/a3.jpg" alt="Avatar" style="width:90px">
+      <h3 class="mb-2">Hundreds Defy Curfew in Kargil</h3>
+      <span style="padding-right:20px;">8/6/2019 7:49:14 AM</span>
+      <span style="padding-right:20px;">Office - Practice Management</span>
+      <span style="padding-right:20px;">Harsha Mitlakod</span>
+      <p>Kargil: Several people were detained in Kargil on Thursday after they defied res...</p>
+      <span style="padding-right:20px;"><button class="btn btn-primary btn-xs">Read More</button></span>
+    </div>
+    <div class="container">
+        <img src="http://qa.zoomteams.com/images/a3.jpg" alt="Avatar" style="width:90px">
+        <h3 class="mb-2">Hundreds Defy Curfew in Kargil</h3>
+        <span style="padding-right:20px;">8/6/2019 7:49:14 AM</span>
+        <span style="padding-right:20px;">Office - Practice Management</span>
+        <span style="padding-right:20px;">Harsha Mitlakod</span>
+        <p>Kargil: Several people were detained in Kargil on Thursday after they defied res...</p>
+        <span style="padding-right:20px;"><button class="btn btn-primary btn-xs">Read More</button></span>
+      </div>
+      <div class="container">
+          <img src="http://qa.zoomteams.com/images/a3.jpg" alt="Avatar" style="width:90px">
+          <h3 class="mb-2">Hundreds Defy Curfew in Kargil</h3>
+          <span style="padding-right:20px;">8/6/2019 7:49:14 AM</span>
+          <span style="padding-right:20px;">Office - Practice Management</span>
+          <span style="padding-right:20px;">Harsha Mitlakod</span>
+          <p>Kargil: Several people were detained in Kargil on Thursday after they defied res...</p>
+          <span style="padding-right:20px;"><button class="btn btn-primary btn-xs">Read More</button></span>
+        </div>
+
+      <div class="container">
+          <img src="http://qa.zoomteams.com/images/a3.jpg" alt="Avatar" style="width:90px">
+          <h3 class="mb-2">Hundreds Defy Curfew in Kargil</h3>
+          <span style="padding-right:20px;">8/6/2019 7:49:14 AM</span>
+          <span style="padding-right:20px;">Office - Practice Management</span>
+          <span  style="padding-right:20px;">Harsha Mitlakod</span>
+          <p>Kargil: Several people were detained in Kargil on Thursday after they defied res...</p>
+        </div>
+        <div class="container">
+            <img src="http://qa.zoomteams.com/images/a3.jpg" alt="Avatar" style="width:90px">
+            <h3 class="mb-2">Hundreds Defy Curfew in Kargil</h3>
+            <span style="padding-right:20px;">8/6/2019 7:49:14 AM</span>
+            <span style="padding-right:20px;">Office - Practice Management</span>
+            <span  style="padding-right:20px;">Harsha Mitlakod</span>
+            <p>Kargil: Several people were detained in Kargil on Thursday after they defied res...</p>
+          </div>
+          </div>
+
+
+<div style="display: inline-block; vertical-align: top;padding-top:30px; padding-left:10px">
+    <div id="dvSearch">
+        <div style="font-size:large">
+
+
+
+            <label>Search</label>        <label class="pull-right">My Article<input type="checkbox" id="checkboxmyarticle" /></label>
+        </div>
+        <input type="text" id="txtbxsearch" style="width: 70%;height: 35px;" placeholder=" Article Name / Description" />
+        <button id="btnsrh" data-get-url="/KB/GetKBArticles" data-updatecontainer="#dvarticlecontainer" class="btn btn-primary"><b>Search</b></button>
+        <hr style="border: 1px solid #d4cfc3;" />
+        <h3 style="margin-top:30px;">Categories</h3>
+        <ul style="list-style: none;padding-left: 0px;width: 100%;">
+
+            <li style="border-bottom: 1px solid #cecece;padding:7px;">
+                <a style="color:gray;font-size:14px;" data-get-url="/KB/GetKBArticles?getall=0" href="#" class="categoryshowall"
+                   data-updatecontainer="#dvarticlecontainer" data-categoryid="0">Show All</a>
+            </li>
+
+                <li style="border-bottom: 1px solid #cecece;padding:7px;" id="categoryli">
+                    <a style="color:gray;font-size:14px;" data-get-url="/KB/GetKBArticles" href="#" class="categserh"  data-updatecontainer="#dvarticlecontainer"
+                       data-categoryid="1">Accounts Recivables - Collections</a><input type="checkbox" class="catFilter" data-categoryid="1" style="display:none"/>
+
+                </li>
+                <li style="border-bottom: 1px solid #cecece;padding:7px;" id="categoryli">
+                    <a style="color:gray;font-size:14px;" data-get-url="/KB/GetKBArticles" href="#" class="categserh"  data-updatecontainer="#dvarticlecontainer"
+                       data-categoryid="3">Office - Practice Management</a><input type="checkbox" class="catFilter" data-categoryid="3" style="display:none"/>
+
+                </li>
+                <li style="border-bottom: 1px solid #cecece;padding:7px;" id="categoryli">
+                    <a style="color:gray;font-size:14px;" data-get-url="/KB/GetKBArticles" href="#" class="categserh"  data-updatecontainer="#dvarticlecontainer"
+                       data-categoryid="2">Surgical Authorizations &amp; Verifications</a><input type="checkbox" class="catFilter" data-categoryid="2" style="display:none"/>
+
+                </li>
+        </ul>
+
+    </div></div>
+
+</div>
+</div>
+
+</div>
+
